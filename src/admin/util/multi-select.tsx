@@ -121,7 +121,7 @@ function Input(props: InputProps) {
                   selectedOption
                       .map((key) => {
                           return <span
-                              className={'bg-gray-400 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300'}
+                              className={'bg-gray-500 text-gray-100 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300'}
                               key={key}>{key}</span>;
                       })
               }
